@@ -1,0 +1,15 @@
+{
+  "brand": "DalinArt",
+  "style": "Minimalist Sci-Fi Cinematic",
+  "subject": {
+    "type": "Geometric Logo",
+    "material": "Luxurious shiny metallic gold (solid polished gold)",
+    "texture": "Extremely sharp, clean, and unobscured shape"
+  },
+  "effects": {
+    "lighting": "Mysterious glowing aura / backlight around the outer edges",
+    "color": "Clean light (neon cyan or subtle blue periphery)",
+    "atmosphere": "High-tech sci-fi object, emitting clean energy"
+  },
+  "raw_prompt": "Edit this minimalist logo. Keep the extremely sharp, clean, and unobscured shape, as well as the mysterious glowing aura/backlight around the outer edges. However, change the material and color of the main logo object itself to a luxurious, shiny, metallic gold. It should look like a sharp, high-tech sci-fi object made of solid polished gold, emitting a clean light from its periphery."
+}

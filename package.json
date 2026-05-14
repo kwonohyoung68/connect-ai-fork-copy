@@ -1,9 +1,9 @@
 {
-  "name": "connect-ai-lab",
-  "displayName": "Connect AI — AI 1인 기업 · 나만의 에이전트 팀 · 제2의 두뇌",
-  "description": "AI 1인 기업가를 위한 워크스페이스. 나만의 AI 에이전트 팀과 제2의 두뇌가 한 곳에서 — CEO + 전문 에이전트들이 내 지식·결정 로그·메모리를 컨텍스트로 24시간 미션 향해 자동으로 일합니다. 100% 로컬·오프라인·무료.",
+  "name": "dalinart-ai-workspace",
+  "displayName": "DalinArt AI Workspace — 직장인을 위한 문제해결형 앱 개발 1인 기업",
+  "description": "일반인, 직장인들이 일상과 업무 중에 필수불가결하게 필요한 간단한 문제해결형 앱을 개발하는 AI 1인 기업 워크스페이스. 100% 로컬·오프라인·무료.",
   "version": "2.89.157",
-  "publisher": "connectailab",
+  "publisher": "dalinart",
   "license": "MIT",
   "icon": "assets/icon.png",
   "repository": {
@@ -44,123 +44,123 @@
     "commands": [
       {
         "command": "connect-ai-lab.newChat",
-        "title": "Connect AI: New Chat",
+        "title": "DalinArt: New Chat",
         "icon": "$(add)"
       },
       {
         "command": "connect-ai-lab.openSettings",
-        "title": "Connect AI: ⚙️ 설정 열기"
+        "title": "DalinArt: ⚙️ 설정 열기"
       },
       {
         "command": "connect-ai-lab.exportChat",
-        "title": "Connect AI: Export Chat as Markdown"
+        "title": "DalinArt: Export Chat as Markdown"
       },
       {
         "command": "connect-ai-lab.explainSelection",
-        "title": "Connect AI: Explain Selected Code"
+        "title": "DalinArt: Explain Selected Code"
       },
       {
         "command": "connect-ai-lab.focusChat",
-        "title": "Connect AI: Focus Chat Input"
+        "title": "DalinArt: Focus Chat Input"
       },
       {
         "command": "connect-ai-lab.showBrainNetwork",
-        "title": "Connect AI: Show Brain Topology 🧠"
+        "title": "DalinArt: Show Brain Topology 🧠"
       },
       {
         "command": "connect-ai-lab.changeCompanyDir",
-        "title": "Connect AI: 회사 폴더 변경 🏢"
+        "title": "DalinArt: 회사 폴더 변경 🏢"
       },
       {
         "command": "connect-ai-lab.connectCompanyRepo",
-        "title": "Connect AI: 회사 GitHub 연결 ☁️"
+        "title": "DalinArt: 회사 GitHub 연결 ☁️"
       },
       {
         "command": "connect-ai-lab.connectGoogleCalendarWrite",
-        "title": "Connect AI: Google Calendar 자동 일정 연결 📅"
+        "title": "DalinArt: Google Calendar 자동 일정 연결 📅"
       },
       {
         "command": "connectAiLab.tasks.refresh",
         "title": "할 일 새로고침",
-        "category": "Connect AI",
+        "category": "DalinArt",
         "icon": "$(refresh)"
       },
       {
         "command": "connectAiLab.tasks.markDone",
         "title": "완료 처리",
-        "category": "Connect AI",
+        "category": "DalinArt",
         "icon": "$(check)"
       },
       {
         "command": "connectAiLab.tasks.cancel",
         "title": "취소",
-        "category": "Connect AI",
+        "category": "DalinArt",
         "icon": "$(close)"
       },
       {
         "command": "connectAiLab.tasks.setPriority",
         "title": "우선순위 변경",
-        "category": "Connect AI",
+        "category": "DalinArt",
         "icon": "$(arrow-up)"
       },
       {
         "command": "connectAiLab.tasks.openTrackerJson",
         "title": "tracker.json 열기",
-        "category": "Connect AI",
+        "category": "DalinArt",
         "icon": "$(file-code)"
       },
       {
         "command": "connectAiLab.dailyBriefing.fireNow",
         "title": "지금 데일리 브리핑 발사",
-        "category": "Connect AI",
+        "category": "DalinArt",
         "icon": "$(megaphone)"
       },
       {
         "command": "connectAiLab.diagnoseConnection",
         "title": "🔍 LLM 연결 진단 (Ollama / LM Studio)",
-        "category": "Connect AI",
+        "category": "DalinArt",
         "icon": "$(pulse)"
       },
       {
         "command": "connectAiLab.youtube.refreshCommentQueue",
         "title": "YouTube 댓글 답장 큐 갱신",
-        "category": "Connect AI",
+        "category": "DalinArt",
         "icon": "$(comment-discussion)"
       },
       {
         "command": "connectAiLab.developer.scaffoldProject",
         "title": "Developer: 새 프로젝트 만들기",
-        "category": "Connect AI",
+        "category": "DalinArt",
         "icon": "$(file-directory-create)"
       },
       {
         "command": "connectAiLab.skill.saveLast",
         "title": "방금 산출물 → 스킬로 저장 💎",
-        "category": "Connect AI",
+        "category": "DalinArt",
         "icon": "$(star)"
       },
       {
         "command": "connectAiLab.youtube.connectOAuth",
         "title": "YouTube OAuth 연결 (Analytics)",
-        "category": "Connect AI",
+        "category": "DalinArt",
         "icon": "$(plug)"
       },
       {
         "command": "connectAiLab.dashboard.open",
         "title": "우리 회사 (팀 + 오늘 + 채널)",
-        "category": "Connect AI",
+        "category": "DalinArt",
         "icon": "$(organization)"
       },
       {
         "command": "connectAiLab.apiConnections.open",
         "title": "외부 연결 (API 키 한 곳에서)",
-        "category": "Connect AI",
+        "category": "DalinArt",
         "icon": "$(plug)"
       },
       {
         "command": "connectAiLab.revenueDashboard.open",
         "title": "💰 매출 대시보드 (PayPal 실시간)",
-        "category": "Connect AI",
+        "category": "DalinArt",
         "icon": "$(graph-line)"
       }
     ],
@@ -213,7 +213,7 @@
       "activitybar": [
         {
           "id": "connect-ai-lab-sidebar",
-          "title": "Connect AI",
+          "title": "DalinArt",
           "icon": "$(hubot)"
         }
       ]
@@ -228,7 +228,7 @@
       ]
     },
     "configuration": {
-      "title": "Connect AI",
+      "title": "DalinArt",
       "properties": {
         "connectAiLab.ollamaUrl": {
           "type": "string",
